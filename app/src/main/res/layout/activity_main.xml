@@ -16,7 +16,8 @@
         android:textColor="#6633FF"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_margin="40dp"/>
+        android:layout_margin="40dp"
+        />
 
         <EditText
             android:id="@+id/questions"
@@ -34,10 +35,18 @@
         android:layout_width="303dp"
         android:layout_height="160dp"
         android:layout_gravity="center"
-        android:text="Escribe tu Mensaje"
-        android:textColor="#6633FF"
-        android:textSize="40dp"
+        android:layout_margin="40dp"
+        android:src="@drawable/trueque"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize ="26sp"
+        android:textColor="#33F3FF"
         android:textStyle="bold"
+        android:text="......."
+        android:layout_margin="60dp"
         />
 
 
