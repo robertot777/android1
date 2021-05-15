@@ -34,8 +34,8 @@ public class MainActivity extends AppCompatActivity  {
         Toast.makeText(MainActivity.this ,"consulta tu suerte", Toast.LENGTH_SHORT).show();
     }
 
-     @Override
-     public void onClick(){
+    @Override
+     public void onClick (View v){
 
          //creacion metodo switch
          switch (v.getId()){
