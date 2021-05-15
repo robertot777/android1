@@ -35,17 +35,19 @@ public class MainActivity extends AppCompatActivity  {
     }
 
      @Override
-
      public void onClick(){
 
          //creacion metodo switch
          switch (v.getId()){
              case R.id.btn:
                  int rand = new Random().nextInt(respuestaArrays.length);
+                 respuesta.setText(respuestaArrays[rand]);
 
                  break;
          }
      }
+
+
 
 
 }
