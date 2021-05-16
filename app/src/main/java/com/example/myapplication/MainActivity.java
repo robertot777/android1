@@ -33,8 +33,10 @@ public class MainActivity extends AppCompatActivity  {
         booton.setOnClickListener ((View.OnClickListener) this);
         Toast.makeText(MainActivity.this ,"consulta tu suerte", Toast.LENGTH_SHORT).show();
     }
-   @Override
-    public void OnClick(View v){
+    @Override
+
+    public void OnClick (View v){
+
         //creacion metodo switch
         switch (v.getId()){
             case R.id.btn:
@@ -43,5 +45,10 @@ public class MainActivity extends AppCompatActivity  {
 
                 break;
         }
-   }
+    }
+
+
+
+
+
 }
