@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity  {
     }
     @Override
 
-    public void OnClick (View v){
+    public void onClick (View v){
 
         //creacion metodo switch
         switch (v.getId()){
