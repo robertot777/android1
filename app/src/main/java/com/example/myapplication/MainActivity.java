@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 import java.util.Random;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener  {
 
 
     private ImageButton booton;
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity  {
         //creacion metodo switch
         switch (v.getId()){
             case R.id.btn:
-                int rand = new Random().nextInt(respuestaArrays.length);
+                int  rand = new Random().nextInt(respuestaArrays.length);
                 respuesta.setText(respuestaArrays[rand]);
 
                 break;
